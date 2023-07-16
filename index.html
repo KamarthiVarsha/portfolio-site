@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-varsha</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <img src="images\logo.png" class="logo">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, it's me varsha</h2>
+                <p class="hero_desc">Professional web developer</p>
+                
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.jpeg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p>Welcome<br>
+
+                        My name is varsha ,currently pursuing Third year B.Tech in the backgroundof computer science and Engineering in St.Jhons College of Engineering and Technology. Seeking a suitable position in a reputed organization. Looking forward to an opportunity which would help me to acquire skills there by giving scope to exploit for the development of the organization
+
+                
+
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('personal information')">Personal Information</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="personal information">
+                        <ul>
+                            <li><span>Mail ID:</span><br>kamarthivarsha@gmail.com</li>
+                            <li><span>Contact No:</span><br>9494492311</li>
+                            <li><span>Date of Birth</span><br>21-08-2003</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.TECH-st.johns college of engineering and technology, Yerrakota,Kurnool</li>
+                            <li><span>2018-2020</span><br>Intermediate- Deeksha junior college, Yemmiganur</li>
+                            <li><span>2013-2018</span><br>SSC- M.S.Z.P.Govt Grils high school, Yemmiganur</li>
+                        </ul>
+                    </div>
+                    <div >
+                        <a class="btn btn-success" href="images/resume.pdf">Resume</a>
+                    </div>
+
+
+                </div>
+            </div>
+    </section>
+
+
+    <!-- skills section-->
+    <section id="Skills">
+        <div class="container">
+            <h1 class="text-center">Skills</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa fa-html5", style="color:orangered"></i>
+                            <h4 class="card-title mt-3">HTML</h4>
+                            <p class="card-text mt-3">I learned Hypertext Markup Language in sololearn and udemey platform.By applying my knowlegede i done some projects.I started learning this web language as a part of my academics and going with basic to advance level.
+                            </p>
+                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7070284995789017088/">certification in sololearn</a>
+
+
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa fa-css3' style='color:blueviolet'></i>
+                            <h4 class="card-title mt-3">CSS</h4>
+                            <p class="card-text mt-3">I learned Cascading Style Sheets in sololearn and udemey platform.By applying my knowlegede i done some projects.in my academics learned these languages and bulid styled webpages with html in some projects</p>
+                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7070285318268088320/">certification in sololearn</a>
+
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fab servicesIcon fab fa-js-square' style='color:green'></i>
+                            <h4 class="card-title mt-3">JAVASCRIPT</h4>
+                            <p class="card-text mt-3">I learned javascript in sololearn and udemey platform.i did some projects by using weblanguages html,css with javascript i learned bulding responsive websites to interact with user and some projects as i mention them in projects section.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    
+
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fab servicesIcon fab fab fa-python' style='color:navy'></i>
+                            <h4 class="card-title mt-3">PYTHON</h4>
+                            <p class="card-text mt-3">I had learned programming language PYTHON with micro framework flask and now working on django framework,i done some projects with my solid knowlegede As part of my academics i am also familiar with machine learning with python and python datascience.
+                               <a href="https://www.sololearn.com/Certificate/CT-QV8QP3FP/png">certification in sololearn</a>
+                            </p>
+                        </div>
+                    </div> 
+                   
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fab servicesIcon fab fa-java' style="color:red"></i>
+
+                            <h4 class="card-title mt-3">JAVA</h4>
+                            <p class="card-text mt-3"> I am learning java programming language in sololearn and udemy platform ,now working on it.i learn oops concept in java as in my academics i learn threads,exception handling and GUI.i have practised some java programs and such a great experince in java i have.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa fa-database' style="color:rgb(228, 217, 11)"></i>
+                            <h4 class="card-title mt-3">SQL</h4>
+                            <p class="card-text mt-3">I learned database Structured Query Langauge in udemy platform.AS a part of my academics i learned database management system and relational data base and practised commands on dataset such good knowlegede i have.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project section-->
+    <section id="Projects">
+        <div class="container mt-3">
+            <h1 class="text-center">Projects</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Signin and Signup</h4>
+
+                            <p class="card-text">I have done Signin and Signup website using html,css,js .</p>
+                            <div class="text-center">
+                                <a href="https://kamarthivarsha.github.io/signin-signup" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Quiz App</h4>
+                            <p class="card-text">I have done Quiz app using html,css and js.</p>
+                            <div class="text-center">
+                                <a href="https://kamarthivarsha.github.io/quizapp/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">speech to text</h4>
+                            <p class="card-text">I have done text to speech wesite using html,css and js.</p>
+                            <div class="text-center">
+                                <a href="https://kamarthivarsha.github.io/speech-to-text/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/url.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">URL shortener</h4>
+                            <p class="card-text">I have done URL shortener project using python and flask framework.</p>
+                            <div class="text-center">
+                                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7075434613153693696/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/music.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Music Player </h4>
+                            <p class="card-text">I have done musicplayer using python by using tkinter module .</p>
+                            <div class="text-center">
+                                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7076474184796696576/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/voice-assistant.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Voice Assisstant</h4>
+                            <p class="card-text">I have done voice Assisstant in python using python modules.</p>
+                            <div class="text-center">
+                                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7076480371491536897/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Yemmiganur,+Andhra+Pradesh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="embed-ded-maphtml" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="grab-map-info">premium bootstrap themes</a>
+                        <style>#my-map-canvas img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/" target="https://www.linkedin.com/in/kamarthi-varsha-605657258"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="https://instagram.com/7dimple_girl?igshid=YmM0MjE2YWMzOA=="><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/" target="https://www.linkedin.com/in/kamarthi-varsha-605657258"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/" target="https://github.com/KamarthiVarsha?tab=projects"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="text" style="color:darkgreen;" >
+                <span>Created By <a href="#" style="color:darkgreen;">@varsha</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+    </script>
+    
+
+
+</body>
+
+</html>
